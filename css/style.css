@@ -423,6 +423,9 @@ footer{
 	text-align: center;
 	margin-right: 8px;
 }
+.left-nav .items .active ul li a:active {
+	background-color: #B7b7b7;
+}
 
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
@@ -577,6 +580,7 @@ footer{
 	line-height: 18px;
 	margin:5px 0 0;
 }
+
 
 
 
