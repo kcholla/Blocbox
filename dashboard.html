@@ -41,7 +41,16 @@
     	<div class="settings">
     		<img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg" alt="avatar">
     		<p>Bob Loblaw</p>
+    		<ul class="account dropit-inverse dropit">
+    		<li class= "dropit-trigger dropit-open">
     		<a href="#"><i class="fa fa-cog"></i></a>
+    		<ul class="dropit-submenu">	
+    			<li><a href="#"><i class="fa fa-cog"></i> Account Settings</a></li>
+    			<li><a href="#"><i class="fa fa-group"></i> Collaborators</a></li>
+    			<li><a href="#"><i class="fa fa-sign-out"></i> Sign Out</a></li>
+    		</ul>
+    		</li>
+    		</ul>
     	</div>
     	</div>
    </nav>
@@ -129,8 +138,16 @@
   <script src="js/dropit.js"></script>
   <script type="text/javascript">
   	$('.menu').dropit();
-  	$(".menu").click(function() {
-  		$("left-nav").toggleClass("open", 200);
+  	$("#menu").click(function() {
+  		$("#left-nav").toggleClass("open", 200);
+  	});
+  	</script>
+  	<script src="js/jquery-3.1.1.min.js"></script>
+  	<script src="js/dropit.js"></script>
+  	<script type ="text/javascript">
+  		$('.account').dropit();
+  		$("#account").click(function() {
+  		$("#left-nav").toggleClass("open", 200);
   	});
   	</script>
   </body>

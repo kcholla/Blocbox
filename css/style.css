@@ -382,7 +382,9 @@ footer{
 .left-nav {
 	height:100%;
 	width:280px;
-	position: absolute;
+	color:#333333;
+	background: #E2E2E2;
+	position:absolute;
 	-webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
